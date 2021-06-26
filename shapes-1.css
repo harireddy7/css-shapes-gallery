@@ -1,0 +1,161 @@
+body {
+  background: #122620;
+}
+
+.header {
+  background: #f4ebd0;
+  padding: 20px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 900;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: 250px;
+}
+
+.box {
+  border: 1px solid #555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#circle {
+  width: 150px;
+  height: 150px;
+  background: #f4ebd0;
+  border-radius: 50%;
+}
+
+.semi-circle {
+  width: 150px;
+  height: 75px;
+  border-radius: 100px 100px 0 0;
+  background: #f4ebd0;
+}
+
+#oval {
+  width: 200px;
+  height: 100px;
+  background: #f4ebd0;
+  border-radius: 60%;
+}
+
+.triangle {
+  border-top: 40px solid transparent;
+  border-right: 90px solid transparent;
+  border-bottom: 120px solid #f4ebd0;
+  border-left: 90px solid transparent;
+}
+
+#rectangle {
+  width: 200px;
+  height: 100px;
+  background: #f4ebd0;
+}
+
+#square {
+  width: 150px;
+  height: 150px;
+  background: #f4ebd0;
+}
+
+#parallelogram {
+  width: 200px;
+  height: 100px;
+  background: #f4ebd0;
+  transform: skew(-30deg);
+}
+
+#trapezoid {
+  width: 150px;
+  border-right: 60px solid transparent;
+  border-bottom: 80px solid #f4ebd0;
+  border-left: 60px solid transparent;
+}
+
+#hexagon {
+  flex-direction: column;
+}
+#hexa-up {
+  width: 100px;
+  border-right: 50px solid transparent;
+  border-bottom: 75px solid #f4ebd0;
+  border-left: 50px solid transparent;
+}
+#hexa-down {
+  width: 100px;
+  border-right: 50px solid transparent;
+  border-top: 75px solid #f4ebd0;
+  border-left: 50px solid transparent;
+}
+
+#drop {
+  width: 130px;
+  height: 130px;
+  background: #f4ebd0;
+  border-radius: 50%;
+  border-top-left-radius: 0;
+  transform: rotate(45deg);
+}
+
+#diamond {
+  flex-direction: column;
+}
+#diamond-top {
+  width: 60px;
+  border-right: 30px solid transparent;
+  border-bottom: 25px solid #f4ebd0;
+  border-left: 30px solid transparent;
+}
+#diamond-base {
+  border-top: 100px solid #f4ebd0;
+  border-right: 60px solid transparent;
+  border-left: 60px solid transparent;
+}
+
+.line {
+  width: 140px;
+  height: 20px;
+  background: #f4ebd0;
+}
+#cross-horizontal {
+  transform: rotate(-45deg);
+}
+#cross-vertical {
+  transform: translateY(-20px) rotate(45deg);
+}
+
+#star {
+  margin-top: 80px;
+}
+#star-up {
+  border-bottom: 140px solid #f4ebd0;
+}
+#star-down {
+  transform: rotate(180deg) translateY(50%);
+  border-bottom: 140px solid #f4ebd0;
+}
+
+#moon {
+  transform: rotate(30deg);
+}
+#moon-cover {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #f4ebd0;
+  transform: translateY(50%);
+}
+#moon-base {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #f4ebd0;
+  background: #122620;
+  transform: translate(-30px, -50%);
+}
